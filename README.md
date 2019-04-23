@@ -1,68 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project 2 for ITDEV-154 
 
-In the project directory, you can run:
+This project is a list app that lets you add and remove items from a list. We were to utilize the following technologies: React, Styled Components, Rebass, Styles Icons and Theming, all while focusing on clean components design. I accomplished these tasks by creating a "To Do List" style website. You still add an item to the list by clicking on the add bar, typing a task, and hitting the enter button or "add" and it pops down into this list. You can then delete an item by clicking on it. I added styling and theming by having color change over hover and added a flip to the app, so when an item is added, it creates a flipping motion. 
 
-### `npm start`
+The features in this project are fairly basic. The website contains a form that grabs the task, and appends it into an item array that holds all the tasks. There is then a "add" button that is styled with styled components, that submits the form and adds the item to the task array. Then the list of tasks is displayed under these two components, which can be deleted by clicking on. 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I was originally planning on creating a components folder, but due to the simplicstic nature of the website, I decided against it, as the only componenets that would be in that folder are TodoItems.js and TodoList.js, alongside the Todolist.css, which styles the project. Speaking of styling, the Todolist.css class holds the styling of Rebass, Styled Components and Theming. Unfortunately, I couldn't use styled-icons, as every time I attempted to download the package, it would get stuck halfway through downloading and never finish. This problem progressed through utilizing both NPM and Yarn to install the package. This is not a huge deal, as the only styled icon I was seeking to use was a task icon that would've sat next to the add button.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
